@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def func1Solved(x, C):
     return np.exp((C/np.sqrt(x))-1)
 
-x_vals = np.linspace(0.1, 10, 200)
+x_vals = np.linspace(0.1, 10, 2000)
 
 C1 = [-0.5, 0, 0.5]
 
