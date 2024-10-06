@@ -38,7 +38,7 @@ plt.show()
 def func3Solved(x):
     return (3 * np.e / 2) * np.exp(-x**2) + 1/2
 
-x_vals3 = np.linspace(0, 10, 200)
+x_vals3 = np.linspace(-5, 5, 200)
 
 plt.plot(x_vals3, func3Solved(x_vals3))
 plt.plot(1, 2,'bo')
